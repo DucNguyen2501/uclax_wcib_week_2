@@ -26,7 +26,6 @@ body {
     align-self: center; }
   body .textbox {
     max-width: 100%;
-    max-height: auto;
     text-align: center; }
   body a:hover {
     text-decoration: none;
