@@ -1,6 +1,52 @@
 body {
-	font-family: sans-serif;background-color: grey;
+	font-family: 'Helvetica', sans-serif;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	line-height: 0.5;
 
+	h1{
+		font-family: 'Londrina Solid', cursive;
+		font-size:4rem;	color: #ed1260;
+		text-shadow: 4px 4px 0px white;
+	}
+
+	h3{
+	font-family: 'Londrina Solid', cursive;
+	font-size:2rem;	color: purple;
+	}
+	.wrapper {display: grid;
+	grid-template-columns: 150px 1fr;}
+
+	.box {min-height: 300px;
+		min-width: auto;
+		border-style: solid;
+		border-color: hotpink;
+		margin: 4px;
+		align-self: center;
+	}
+
+  .textbox {max-width: 100%;
+		max-height: auto;
+		text-align: center;}
+
+	a:hover {text-decoration: none; font-weight: bold;
+	}
+	ol li {
+	list-style-type: none;
+	line-height: 2;
+	padding-left: 2rem;
+	background-image: url("../images/icon_2.png");
+	background-size: 24px;
+	background-repeat: no-repeat;
+	}
+
+	iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	img {
 	}
 }

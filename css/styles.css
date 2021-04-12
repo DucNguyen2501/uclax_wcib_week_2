@@ -1,3 +1,44 @@
 body {
-  font-family: sans-serif;
-  background-color: grey; }
+  font-family: 'Helvetica', sans-serif;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  line-height: 0.5; }
+  body h1 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 4rem;
+    color: #ed1260;
+    text-shadow: 4px 4px 0px white; }
+  body h3 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2rem;
+    color: purple; }
+  body .wrapper {
+    display: grid;
+    grid-template-columns: 150px 1fr; }
+  body .box {
+    min-height: 300px;
+    min-width: auto;
+    border-style: solid;
+    border-color: hotpink;
+    margin: 4px;
+    align-self: center; }
+  body .textbox {
+    max-width: 100%;
+    max-height: auto;
+    text-align: center; }
+  body a:hover {
+    text-decoration: none;
+    font-weight: bold; }
+  body ol li {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 2rem;
+    background-image: url("../images/icon_2.png");
+    background-size: 24px;
+    background-repeat: no-repeat; }
+  body iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
