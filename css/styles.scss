@@ -5,7 +5,13 @@ body {
 	background-size: cover;
 	color: black;
 	line-height: 0.5;
-
+ @font-face{
+	 font-family : 'Londrina Solid';
+ 	font-style : normal;
+ 	font-weight : 400;
+ 	font-display : swap;
+ 	src : url(https://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGcNZ.ttf) format('truetype');
+	}
 	h1{
 		font-family: 'Londrina Solid', cursive;
 		font-size:4rem;	color: #ed1260;
